@@ -1,0 +1,13 @@
+DXM (for Digital X Mapping)
+
+DXM is a convenient tool dedicated to researchers in environmental sciences and for educational purposes. DXM aims to assist in analysing and quantifying time series with the help of non-stationary signal analysis methods. Starting from a loaded time series (whatever its length and time resolution), the software computes various maps and statistics related to variability and non-stationarity properties. Among others, it provides computations of Fourier and Autocorrelation spectra, SSA (Singular Spectrum Analysis), wavelet transforms, and DXM extended auto-correlations (cyclostationarity). 
+
+The code presented here were developed in 2011 when I was working at the French Institute of Pondicherry, India under the supervision of Dr. Cédric Gaucherl.
+
+Since then, the software has been officially released by the French Umr AMAP and can be found here http://amap-collaboratif.cirad.fr/pages_logiciels/index.php?page=dxm
+
+References
+Gaucherel, C., A study of the possible extended influence of the ENSO phenomenon. Comptes Rendus Geoscience, 2004. 336(3): p. 175-185.
+Gaucherel, C., Use of wavelet transform for temporal characterization of remote watersheds. Journal of Hydrology, 2002. 269(3-4): p. 101-121.
+Gaucherel, C., Analysis of ENSO interannual oscillations using non-stationary quasi-periodic statistics: a study of ENSO memory. International Journal of Climatology, DOI: 10.1002/joc.1937 (2010).
+Gaucherel, C., Frelat, R., Lustig, A., Rouy, B., Cherry, Y., Hubert, P., Time-frequency analysis to profile hydrological regimes: Application to Haiti. Hydrological Sciences Journal, In press (2015).
