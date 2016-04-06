@@ -9,4 +9,14 @@ The data/code presented here include:
 - SSA_matlab : The Matlab version of the Monte-Carlo Singular Spectrum Analysis (SSA)
 - Wavelet_matlab : The Matlab version of the wavelet analysis
 - EMD_matlab : The Matlab version of the Empirical Mode Decomposition (EMD)
-- Data : The data used in this study. All data are based on the time series provided by the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). The data are normalized with respect to the standard deviation computed over the same interval to allow for a better comparison between time series.
+- Data : The data used in this study. All data are based on the time series provided by the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC) - http://www.cpc.ncep.noaa.gov/data/indices/. 
+
+Data description:
+The SOI, commonly used to quantify the atmospheric ENSO variations, is defined as the normalized sea-level atmosphere pressure difference between Tahiti and Darwin, Australia. The data set used in this analysis is the monthly SOI time series from January 1951 though July 2014. A anomalously negative value of this index indicates a warm event (El Nino), while a highly positive value is associated with a cold event (La Nina). The oceanic component of ENSO is commonly quantified by the indexes Nino 1-2, Nino 3, Nino 4 and Nino 3.4 defined as the sea surface temperature (SST) averaged over the eastern half of the tropical Pacific, respectively located at (0N − 10S, 90E − 80W ), (5N − 5S, 150W − 90W ), (5N − 5S, 170E− 120W ) and (5N − 5S, 160E − 150W ). The time interval considered for the four indices is from January 1950 to July 2014. All data are based on the time series provided by the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). The data are normalized with respect to the standard deviation computed over the same interval to allow for a better comparison between time series.
+
+The data presented here include:
+- monthly-SOI-anomaly-1951-2014.txt : Monthly Southern Oscillation Index (SOI) (Tahiti - Darwin) Sea Level Pressure
+- monthly-SOI-standardized-1951-2014.txt : Standardized monthly Southern Oscillation Index (SOI) (Stand Tahiti - Stand Darwin) Sea Level Pressure
+- monthly-SST-1950-2014.txt : OISST.v2 (1981-2010 based preiod) Monthly See Surface Temperature
+- weekly-SST-1982-2014.txt : OISST.v2 (1981-2010 base period) Weekly See Surface Temperature
+- SOI.txt : Tensformed SOI data used in my thesis report in 2011.
