@@ -1,4 +1,4 @@
-% Wawelet_matlab.m
+% Wavelet_matlab.m
 %
 % Audrey Lustig and Cedric Gaucherel, 2010-2011
 %
@@ -59,7 +59,7 @@ scaleavg_signif = wave_signif(variance,dt,scale,2,lag1,-1,[s0,s0*2^(j1*dj)],moth
 %     disp(i)
 %     a=randn(1,1)*10;
 %     randn('seed',floor(sum(10*clock)/a)); %pour changer la seed
-%     R=randn(1,n)*sqrt(nanstd(S)^2); % genère un bruit blanc de variance égale au signal étudié
+%     R=randn(1,n)*sqrt(nanstd(S)^2); % genÃ¨re un bruit blanc de variance Ã©gale au signal Ã©tudiÃ©
 %     [waveWN] = wavelet(R,dt,pad,dj,s0,j1,mother);
 %     powerWN = (abs(waveWN)).^2 ;
 %     global_ws_WN = variance*(sum(powerWN')/n);
@@ -79,7 +79,7 @@ subplot('position',[0.1 0.81 0.65 0.12])
 plot(time,S)
 set(gca,'XLim',[time(1),time(end)])
 set(gca,'Ylim',[min(S),max(S)])
-xlabel('Temps(années)')
+xlabel('Temps(annÃ©es)')
 ylabel('anomalies (m^3/s)')
 title('toto')
 
@@ -91,8 +91,8 @@ Yticks = 2.^(fix(log2(min(period))):fix(log2(max(period))));
 contourf(time,log2(period),log2(power),log2(levels)); 
 colormap jet
 %imagesc(time,log2(period),log2(power));  %*** uncomment for 'image' plot
-xlabel('Temps (années) ')
-ylabel('Période de Fourier (jours)')
+xlabel('Temps (annÃ©es) ')
+ylabel('PÃ©riode de Fourier (jours)')
 title('b) Carte de coefficients en ondelette')
 set(gca,'XLim',xlim(:))
 set(gca,'YLim',log2([min(period),max(period)]), ...
@@ -128,9 +128,9 @@ set(gca,'XLim',[0,1.25*max(global_ws)])
 subplot('position',[0.1 0.42 0.65 0.10])
 plot(time,scale_avg)
 set(gca,'XLim',xlim)
-xlabel('Temps (années)')
+xlabel('Temps (annÃ©es)')
 ylabel('Variance ')
-title('d) Variance par unité de temps')
+title('d) Variance par unitÃ© de temps')
 hold on
 %plot(time,scaleavg_signifW,'k--')
 plot(xlim,scaleavg_signif+[0,0],'r--')
