@@ -9,4 +9,4 @@ The data/code presented here include:
 - EMD_matlab : The Matlab version of the Empirical Mode Decomposition (EMD)
 - Data : The data used in this studied. All data are based on the time series provided by the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). The data are normalized with respect to the standard deviation computed over the same interval to allow for a better comparison between time series.
 
-The analysis and results are presented in the report for my master emtitled Lustig_FinalReport_2011.pdf
+The project aim and objectives, the methods and results and discussion are presented in my master thesis report entitled Lustig_FinalReport_2011.pdf
